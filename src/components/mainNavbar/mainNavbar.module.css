@@ -1,0 +1,15 @@
+.main-container {
+    background-color: black;
+    height: 76px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.mortal-logo{
+width: 160px;
+height: 90px;
+position: relative;
+    top: 32px;
+}

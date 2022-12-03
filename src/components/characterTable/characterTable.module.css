@@ -1,0 +1,21 @@
+.table-cont {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 40px  auto 0px auto;
+}
+.table-cont div {
+  width:20%;
+  font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+}
+
+
+.character-name {
+    width: 30% !important
+}
+
+.character-tag {
+    width: 30% !important
+}

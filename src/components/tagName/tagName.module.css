@@ -1,0 +1,41 @@
+.tag-name-cont {
+    background: #FFFFFF;
+border: 1px solid #217AFF;
+border-radius: 20px;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #217AFF;
+cursor: pointer;
+padding: 10px;
+margin-right: 8px;
+margin-top: 8px;
+
+}
+
+.tag-name-cont input {
+    -webkit-appearance: none;
+    
+	
+}
+
+
+
+
+.tag-name-cont input:active, .tag-name-cont input:checked:active::before {
+    content: '\2713';
+    display: inline-block;
+    color: #217AFF;
+    padding: 0 6px 0 0;
+}
+
+.tag-name-cont input:checked::before {
+    content: '\2713';
+    display: inline-block;
+    color: #217AFF;
+    padding: 0 6px 0 0;	
+}
+

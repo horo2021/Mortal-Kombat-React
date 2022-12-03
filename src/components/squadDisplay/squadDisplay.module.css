@@ -1,0 +1,65 @@
+.squad-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected-character-continer {
+    display: flex;
+}
+
+.characters-info {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+.characters-info div {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.characters-info div h3:first-child {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.characters-info div h3:last-child {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.average-note {
+    color: grey;
+   
+}
+.average-note p {
+    color: grey;
+    margin-left: -236px;
+    font-size: 12px;
+}
+
+.midlle-category-style::after {
+   content: "";
+  
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    right: 210px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 51.04%, rgba(0, 0, 0, 0) 100%);
+    
+}
+.midlle-category-style::before {
+   content: "";
+  
+    width: 1px;
+    height: 100px;
+    position: absolute;
+    right: 310px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 51.04%, rgba(0, 0, 0, 0) 100%);
+    
+}

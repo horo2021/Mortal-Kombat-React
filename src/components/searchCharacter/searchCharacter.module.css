@@ -1,0 +1,15 @@
+.search-input-cont {
+    display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+.search-input-cont input {
+    width: 500px;
+    height: 40px;
+    
+    background: #FFFFFF;
+    border: 1px solid #777777;
+    border-radius: 4px;
+}
+
+

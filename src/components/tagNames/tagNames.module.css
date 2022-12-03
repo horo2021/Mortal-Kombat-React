@@ -1,0 +1,7 @@
+.tag-names-cont {
+   display: flex;
+   flex-wrap: wrap;
+   width: 98%;
+   margin: 30px auto;
+  
+}
